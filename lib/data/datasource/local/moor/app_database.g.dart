@@ -324,6 +324,9 @@ class $EntryEntityTable extends EntryEntity
   $EntryEntityTable createAlias(String alias) {
     return $EntryEntityTable(_db, alias);
   }
+
+  @override
+  noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
 
 class CategoryEntityData extends DataClass
@@ -628,6 +631,9 @@ class $CategoryEntityTable extends CategoryEntity
   $CategoryEntityTable createAlias(String alias) {
     return $CategoryEntityTable(_db, alias);
   }
+
+  @override
+  noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
 
 class IncomeCategoryEntityData extends DataClass
@@ -935,6 +941,9 @@ class $IncomeCategoryEntityTable extends IncomeCategoryEntity
   $IncomeCategoryEntityTable createAlias(String alias) {
     return $IncomeCategoryEntityTable(_db, alias);
   }
+
+  @override
+  noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
 
 class IncomeEntryEntityData extends DataClass
@@ -1257,6 +1266,9 @@ class $IncomeEntryEntityTable extends IncomeEntryEntity
   $IncomeEntryEntityTable createAlias(String alias) {
     return $IncomeEntryEntityTable(_db, alias);
   }
+
+  @override
+  noSuchMethod(Invocation invocation) => super.noSuchMethod(invocation);
 }
 
 abstract class _$AppDatabase extends GeneratedDatabase {

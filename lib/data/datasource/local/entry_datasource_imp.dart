@@ -1,17 +1,17 @@
 import 'package:collection/collection.dart';
-import 'package:expense_manager/core/constants.dart';
-import 'package:expense_manager/data/datasource/entry_dataSource.dart';
-import 'package:expense_manager/data/datasource/local/moor/app_database.dart';
-import 'package:expense_manager/data/models/category.dart';
-import 'package:expense_manager/data/models/category_with_entry_list.dart';
-import 'package:expense_manager/data/models/category_with_sum.dart';
-import 'package:expense_manager/data/models/entry.dart';
-import 'package:expense_manager/data/models/entry_with_category.dart';
-import 'package:expense_manager/data/models/history.dart';
+import 'package:money_manager/core/constants.dart';
+import 'package:money_manager/data/datasource/entry_dataSource.dart';
+import 'package:money_manager/data/datasource/local/moor/app_database.dart';
+import 'package:money_manager/data/models/category.dart';
+import 'package:money_manager/data/models/category_with_entry_list.dart';
+import 'package:money_manager/data/models/category_with_sum.dart';
+import 'package:money_manager/data/models/entry.dart';
+import 'package:money_manager/data/models/entry_with_category.dart';
+import 'package:money_manager/data/models/history.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:moor/moor.dart';
-import 'package:expense_manager/extension/datetime_extension.dart';
+import 'package:money_manager/extension/datetime_extension.dart';
 
 final dataSourceProvider = Provider(
     (ref) => EntryDataSourceImp(appDatabase: ref.read(appDatabaseProvider)));

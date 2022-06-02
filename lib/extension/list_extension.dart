@@ -1,5 +1,6 @@
-import 'package:expense_manager/data/models/entry_with_category.dart';
+
 import 'package:fimber/fimber.dart';
+import 'package:money_manager/data/models/entry_with_category.dart';
 
 extension ListExtension<T> on List<EntryWithCategory> {
   Map<int, List<EntryWithCategory>> groupListsByMonth(int currentMonth) {

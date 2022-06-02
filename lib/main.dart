@@ -8,6 +8,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:money_manager/core/CrashReportingTree.dart';
 import 'package:money_manager/core/Logger.dart';
 import 'package:money_manager/data/datasource/sharedpref/shared_preference_helper.dart';
+import 'package:money_manager/ui/app/app.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 Future<void> main() async {

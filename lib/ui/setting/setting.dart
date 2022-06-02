@@ -1,16 +1,16 @@
 import 'package:dotted_border/dotted_border.dart';
-import 'package:expense_manager/data/datasource/language_data.dart';
-import 'package:expense_manager/core/app_localization.dart';
-import 'package:expense_manager/ui/dialog/common_alert_dialog.dart';
-import 'package:expense_manager/ui/dialog/currency_dialog.dart';
-import 'package:expense_manager/ui/dialog/language_dialog.dart';
-import 'package:expense_manager/ui/dialog/monthly_cycle_date_dialog.dart';
-import 'package:expense_manager/ui/dialog/theme_dialog.dart';
-import 'package:expense_manager/ui/setting/setting_view_model.dart';
+import 'package:money_manager/data/datasource/language_data.dart';
+import 'package:money_manager/core/app_localization.dart';
+import 'package:money_manager/ui/dialog/common_alert_dialog.dart';
+import 'package:money_manager/ui/dialog/currency_dialog.dart';
+import 'package:money_manager/ui/dialog/language_dialog.dart';
+import 'package:money_manager/ui/dialog/monthly_cycle_date_dialog.dart';
+import 'package:money_manager/ui/dialog/theme_dialog.dart';
+import 'package:money_manager/ui/setting/setting_view_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:expense_manager/ui/app/app_state.dart';
+import 'package:money_manager/ui/app/app_state.dart';
 import 'package:intl/intl.dart';
 
 class Setting extends ConsumerWidget {
@@ -223,7 +223,7 @@ class Setting extends ConsumerWidget {
               Center(
                 child: Text(
                   AppLocalization.of(context)
-                      .getTranslatedVal("expense_manager_by_nividata"),
+                      .getTranslatedVal("money_manager_by_nividata"),
                   style: Theme.of(context)
                       .textTheme
                       .subtitle1

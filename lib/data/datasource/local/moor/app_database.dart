@@ -1,7 +1,7 @@
-import 'package:expense_manager/core/constants.dart';
-import 'package:expense_manager/data/models/category.dart';
-import 'package:expense_manager/data/models/category_with_sum.dart';
-import 'package:expense_manager/data/models/entry_with_category.dart';
+import 'package:money_manager/core/constants.dart';
+import 'package:money_manager/data/models/category.dart';
+import 'package:money_manager/data/models/category_with_sum.dart';
+import 'package:money_manager/data/models/entry_with_category.dart';
 import 'package:fimber/fimber.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:moor_flutter/moor_flutter.dart';

@@ -1,5 +1,5 @@
-import 'package:expense_manager/data/datasource/local/moor/app_database.dart';
-import 'package:expense_manager/data/models/category.dart';
+import 'package:money_manager/data/datasource/local/moor/app_database.dart';
+import 'package:money_manager/data/models/category.dart';
 import 'package:flutter/material.dart';
 
 class CategoryWithSum {

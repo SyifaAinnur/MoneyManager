@@ -1,4 +1,4 @@
-import 'package:expense_manager/extension/datetime_extension.dart';
+import 'package:money_manager/extension/datetime_extension.dart';
 
 class DateTimeUtil {
   static getStartDateTime(int cycleDate) {

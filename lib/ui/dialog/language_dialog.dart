@@ -1,7 +1,7 @@
-import 'package:expense_manager/core/color_scheme.dart';
-import 'package:expense_manager/data/datasource/language_data.dart';
-import 'package:expense_manager/core/app_localization.dart';
-import 'package:expense_manager/ui/app/app_state.dart';
+import 'package:money_manager/core/color_scheme.dart';
+import 'package:money_manager/data/datasource/language_data.dart';
+import 'package:money_manager/core/app_localization.dart';
+import 'package:money_manager/ui/app/app_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
